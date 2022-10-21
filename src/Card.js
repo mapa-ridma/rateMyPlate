@@ -8,7 +8,7 @@ function CardComponent(props) {
 
 <div style={{display:'flex', alignItems:'center', justifyContent: 'center'}}>
 
-<Card className="card" style={{ width: '18rem', border: 'solid' }}>
+<Card className="card" style={{ width: '50%', border: 'solid' }}>
       <Card.Img variant="top" src="" />
       {/* {props.Img.src} */}
       <Card.Body>
@@ -26,7 +26,10 @@ function CardComponent(props) {
         <Card.Link href="#"></Card.Link>
         <Card.Link href="#"></Card.Link>
       </Card.Body>
-    </Card>
+
+
+</Card>
+
 
 
 </div>
