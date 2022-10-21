@@ -86,28 +86,42 @@ function App() {
 
   return (
     <> 
-      <div style={{display:'flex', alignItems:'center', justifyContent: 'center'}}>
+      <div style={{display:'flex', alignItems:'center', justifyContent: 'center', border: 'solid', backgroundColor: 'lightcoral' }}>
         <h1>Rate My Plate</h1>
-      </div>    
+      </div>  
+      
+      <br></br>
+
+      <div className="pizzaContainer">
+        <img 
+        src="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg?w=996&t=st=1666288814~exp=1666289414~hmac=1f81eca95b4c75b15d0e95f30d237af504dce7f95413bdddd06047a6cf078fef"
+        alt="Pizza"
+        id = "pizzaImage"
+        />
+      </div>
     
+    
+    <br></br>
       {values?.map(item => {return <Card Title={item.Title} Text={item.Text}/>})}  
   
-    
-    <form>
-    <label for="username">Username</label>
-        <input id="username" type="text" onChange={(e) => handleNameChange(e.target.value)}/>
-        <label for="imgURL">Enter Image URL</label>
+    <br></br>
+    <form className="formContainer">
+        
+
+        <label for="username">Username:</label>
+        <input id="username" type="text" className="formInputFields" onChange={(e) => handleNameChange(e.target.value)}/>
+
+      
+        <label for="imgURL">Image URL:</label>
         <input type="text" id="imgURL" className="formInputFields"></input>
 
         
-        <label for="Comment">Comment</label>
+        <label for="Comment">Comment:</label>
         <input type="text" id="Comment" className="formInputFields" onChange={(e) => handleCommentChange(e.target.value)} />
         
         <label for="submit"></label>
         <button onClick={()=> uploadContentForm()} type="submit">Submit</button> 
     
-        
-
 
     </form>
 

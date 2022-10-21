@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(255, 163, 130, 0.966);
+  background-color: rgba(238, 169, 144, 0.966);
 }
 
 code {
@@ -15,6 +15,8 @@ code {
 }
 .card{
   background-color: silver;
+  border-radius: 12px
+  
 }
 
 #card-title{
@@ -23,4 +25,48 @@ code {
 
 #card-comment{
   
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+h1 { 
+  font-family: 'Comforter Brush', cursive;
+  font-size: 400%;
+  height:fit-content;
+  color:rgb(255, 255, 255);
+  text-shadow: 6px 6px rgba(78, 7, 7, 0.616);
+
+}
+
+.formContainer {
+  border: solid;
+  border-radius: 12px;
+  display: flex; 
+  text-align: center;
+  justify-content: center;
+  padding: 2% 2% 2% 2%;
+  margin: auto;
+  width: 85%;
+  background-color: lightcoral;
+}
+
+
+.formInputFields {
+  width: 200%;
+}
+
+
+.pizzaContainer {
+  display: flex; 
+  text-align: center;
+  justify-content: center;
+}
+
+#pizzaImage {
+width: 45%;
+display: flex; 
+text-align: center;
+justify-content: center;
 }
