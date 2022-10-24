@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rateMyPlate/static/css/main.c80a6517.css",
+    "main.js": "/rateMyPlate/static/js/main.4c25d40a.js",
+    "static/js/787.8f911a56.chunk.js": "/rateMyPlate/static/js/787.8f911a56.chunk.js",
+    "index.html": "/rateMyPlate/index.html",
+    "main.c80a6517.css.map": "/rateMyPlate/static/css/main.c80a6517.css.map",
+    "main.4c25d40a.js.map": "/rateMyPlate/static/js/main.4c25d40a.js.map",
+    "787.8f911a56.chunk.js.map": "/rateMyPlate/static/js/787.8f911a56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c80a6517.css",
+    "static/js/main.4c25d40a.js"
+  ]
+}
